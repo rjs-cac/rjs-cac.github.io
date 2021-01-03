@@ -6,23 +6,10 @@
 					<h2 class="section-heading">{{ site.t.sections.booklet.title[page.lang] }}</h2>
 					<hr class="primary">
 					<p>{{ site.t.sections.booklet.subtitle[page.lang] }}</p>
-
-					<div class="row justify-content-center">
-
-						<a href="{{ site.url }}/rsc/{{ site.t.sections.booklet.sd.link[page.lang] }}" id="email-no-uppercase" target="_blank" class="btn btn-secondary-action btn-sm">
-							<span class="download-file">
-								<i class="far fa-file-alt"></i>
-							</span>
-							{{ site.t.sections.booklet.sd.info[page.lang] }}
-						</a>
-
-						<a href="{{ site.url }}/rsc/{{ site.t.sections.booklet.hd.link[page.lang] }}" id="email-no-uppercase" target="_blank" class="btn btn-secondary-action btn-sm">
-							<span class="download-file">
-								<i class="far fa-file-alt"></i>
-							</span>
-							{{ site.t.sections.booklet.hd.info[page.lang] }}
-						</a>
-					</div>
+					<a href="{{ site.url }}/rsc/{{ site.t.sections.booklet.file.link[page.lang] }}" id="email-no-uppercase" target="_blank" class="btn btn-secondary-action btn-xl">
+						<i class="far fa-file-alt"></i>
+						{{ site.t.sections.booklet.file.info[page.lang] }}
+					</a>
 				</div>
 			</div>
 

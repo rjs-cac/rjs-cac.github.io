@@ -443,21 +443,12 @@ t:
         en: "Checkout the booklet for more information"
         fr: "Téléchargez le livret d'acceuil pour de plus amples informations"
         de: "Mehr Informationen gibt es im Willkommensheft"
-      sd:
-        link:
-          en: "booklet_lepenon-surfhouse_SD.pdf"
-          fr: "livret_acceuil_lepenon-surfhouse_SD.pdf"
-          de: "booklet_lepenon-surfhouse_SD.pdf"
-        info:
-          en: "SD (5 MB)"
-          fr: "SD (5 Mo)"
-          de: "SD (5 MB)"
-      hd:
+      file:
         link:
           en: "booklet_lepenon-surfhouse_HD.pdf"
           fr: "livret_acceuil_lepenon-surfhouse_HD.pdf"
           de: "booklet_lepenon-surfhouse_HD.pdf"
         info:
-          en: "HD (23 MB)"
-          fr: "HD (23 Mo)"
-          de: "HD (23 MB)"
+          en: "Booklet (23 MB)"
+          fr: "Livret d'acceuil (23 Mo)"
+          de: "Willkommensheft (23 MB)"
