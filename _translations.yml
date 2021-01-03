@@ -438,11 +438,11 @@ t:
       title:
         en: "Discover the apartment!"
         fr: "Découvrez l'appartement"
-        de: "TODO"
+        de: "Schau dir das Apartment an!"
       subtitle:
         en: "Checkout the booklet for more information"
         fr: "Téléchargez le livret d'acceuil pour de plus amples informations"
-        de: "TODO"
+        de: "Mehr Informationen gibt es im Willkommensheft"
       sd:
         link:
           en: "booklet_lepenon-surfhouse_SD.pdf"
