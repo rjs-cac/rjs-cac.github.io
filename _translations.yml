@@ -449,6 +449,6 @@ t:
           fr: "livret_acceuil_lepenon-surfhouse_HD.pdf"
           de: "booklet_lepenon-surfhouse_HD.pdf"
         info:
-          en: "Booklet (23 MB)"
-          fr: "Livret d'acceuil (23 Mo)"
-          de: "Willkommensheft (23 MB)"
+          en: "Booklet"
+          fr: "Livret d'acceuil"
+          de: "Willkommensheft"
