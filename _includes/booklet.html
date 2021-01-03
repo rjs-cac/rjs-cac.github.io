@@ -9,25 +9,25 @@
 
 					<div class="row justify-content-center">
 
-						<a href="{{ site.url }}/rsc/{{ site.t.sections.booklet.link_sd[page.lang] }}" id="email-no-uppercase" target="_blank" class="btn btn-secondary-action btn-sm">
+						<a href="{{ site.url }}/rsc/{{ site.t.sections.booklet.sd.link[page.lang] }}" id="email-no-uppercase" target="_blank" class="btn btn-secondary-action btn-sm">
 							<span class="download-file">
 								<i class="far fa-file-alt"></i>
 							</span>
-							SD (5 mb)
+							{{ site.t.sections.booklet.sd.info[page.lang] }}
 						</a>
 
-						<a href="{{ site.url }}/rsc/{{ site.t.sections.booklet.link_hd[page.lang] }}" id="email-no-uppercase" target="_blank" class="btn btn-secondary-action btn-sm">
+						<a href="{{ site.url }}/rsc/{{ site.t.sections.booklet.hd.link[page.lang] }}" id="email-no-uppercase" target="_blank" class="btn btn-secondary-action btn-sm">
 							<span class="download-file">
 								<i class="far fa-file-alt"></i>
 							</span>
-							HD (22 mb)
+							{{ site.t.sections.booklet.hd.info[page.lang] }}
 						</a>
 					</div>
 				</div>
 			</div>
 
 			<div class="col-sm booklet-col-element youtube-video">
-				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pA96m95T3NA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube-nocookie.com/embed/I67YjwnbZrg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
