@@ -434,3 +434,21 @@ t:
         en: "Ready to come? Have you already packed your surfboard? But you don't want to book online? Then just give us a call!"
         fr: "Prêt à venir? Vous avez déjà préparer votre sac et vos planches de surf? Mais vous ne voulez pas réserver par internet? Dans ce cas là appelez nous!"
         de: "Bist du bereit? Die Koffer sind gepackt? Aber du willst nicht online buchen? Dann ruf uns an!"
+    booklet:
+      title:
+        en: "Discover the apartment!"
+        fr: "Découvrez l'appartement"
+        de: "Schau dir das Apartment an!"
+      subtitle:
+        en: "Checkout the booklet for more information"
+        fr: "Téléchargez le livret d'acceuil pour de plus amples informations"
+        de: "Mehr Informationen gibt es im Willkommensheft"
+      file:
+        link:
+          en: "booklet_lepenon-surfhouse_HD.pdf"
+          fr: "livret_acceuil_lepenon-surfhouse_HD.pdf"
+          de: "booklet_lepenon-surfhouse_HD.pdf"
+        info:
+          en: "Booklet"
+          fr: "Livret d'acceuil"
+          de: "Willkommensheft"
