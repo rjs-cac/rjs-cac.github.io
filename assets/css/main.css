@@ -85,17 +85,26 @@ input::-moz-focus-inner {
     overflow: hidden;
     background-color: #f1f1f1;
 }
+/*Text area for the collapsible box */
+.hiddenBox{
+    width: 56%;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
 .collapsible:after {
-  font-family: "Font Awesome 5 Free";
-  content: "\f078";
-  display: inline-block;
-  padding-right: 3px;
-  vertical-align: middle;
-  font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f078";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
 }
 
 .active:after {
-  content: "\f077";
+    content: "\f077";
 }
 
  /* The Modal (background) */
@@ -1806,6 +1815,15 @@ input, select, textarea {
 		}
 
 /* Image */
+        /* Wrap words around text */
+        .wrapingimage-left {  
+            float: left;   
+            margin: 5px 12px 3px 4px;
+        }
+        .wrapingimage-right {  
+            float: right;   
+            margin: 5px 12px 3px 4px;
+        }
 
 	.image {
 		display: inline-block;
@@ -1822,9 +1840,10 @@ input, select, textarea {
 		}
 
 		.image.featured {
-			display: block;
-			width: 100%;
-			margin: 0 0 2em 0;
+                    
+                    display: block;
+                    width: 80%;
+                    margin: 0 0 2em 0;
 		}
 
 		.image.left {
@@ -2426,8 +2445,8 @@ input, select, textarea {
 	}
 
 		#content > .inner {
-                        padding-left: 200px;
-			z-index: 1;
+                    padding-left: 180px;
+                    z-index: 1;
 		}
 
 /* Copyright */
@@ -2609,7 +2628,7 @@ input, select, textarea {
 								whatever you like (or remove it entirely).
 							*/
 
-					max-width: 1038px;
+					max-width: 1200px;
 				}
 
 		/* Copyright */
