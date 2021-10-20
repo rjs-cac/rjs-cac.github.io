@@ -67,6 +67,10 @@ input::-moz-focus-inner {
 .box1 {
         opacity: .9; 
 }
+/* Change Font Awesome Icon with this, just add into class=".... icon-cog" */
+.icon-cog {
+    color: black;
+}
 
 /*Collapsible Box */
 .collapsible {
@@ -87,7 +91,7 @@ input::-moz-focus-inner {
 }
 /*Text area for the collapsible box */
 .hiddenBox{
-    width: 56%;
+    width: 70%;
     padding: 0 18px;
     display: none;
     overflow: hidden;
