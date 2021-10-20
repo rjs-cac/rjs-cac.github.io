@@ -10,7 +10,7 @@
 		$body = $('body'),
 		$document = $(document);
                 
-                
+        
         //Modal Implementation
         // Get the modal
         var modalparent = document.getElementsByClassName("modal_multi");
