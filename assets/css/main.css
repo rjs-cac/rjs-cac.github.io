@@ -120,7 +120,8 @@ input::-moz-focus-inner {
 	}
 
   .vividworknav {
-	width: 80%;
+	max-width: 80%;
+	min-width: 90%;
 	height: auto;
 	float: left;
 	padding: 0;
@@ -138,7 +139,7 @@ input::-moz-focus-inner {
 
   .vividworknav img {
 	padding: 0;
-	width: 100%;
+	max-width: 100%;
 	display: block;
 	opacity: 1;
   }
@@ -2110,7 +2111,8 @@ input, select, textarea {
 /* Item */
 
 	.item {
-		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+		/* Creates the shadow around Projects */
+		/*box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);*/
 		margin-bottom: 40px;
 	}
 
