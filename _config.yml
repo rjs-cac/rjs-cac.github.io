@@ -1,7 +1,7 @@
 # Site settings
 title: Le Penon Surf House
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "lepenon-surfhouse.fr" # the base hostname & protocol for your site
+url: "https://lepenon-surfhouse.fr" # the base hostname & protocol for your site
 
 # Contact Information
 email: holilandes@gmail.com
