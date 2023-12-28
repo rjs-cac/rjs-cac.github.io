@@ -82,19 +82,12 @@ t:
             fr: "Réservez dès maintenant votre Surf House tout près de la plage à Seignosse directement sur Airbnb"
             de: "Buchen Sie jetzt Ihr Surf Haus in Strandnähe in Seignosse direkt auf Airbnb"
         2:
-          image: "booking-reservation-buchen-partner-holilandes.png"
-          link: "https://holilandes.fr/"
+          image: "booking-reservation-buchen-partner-madame-keys.png"
+          link: "https://www.madamekeys.com"
           alt:
-            en: "Book now your Surf House close to the beach in Seignosse directly on HoliLandes.fr"
-            fr: "Réservez dès maintenant votre Surf House tout près de la plage à Seignosse sur HoliLandes.fr"
-            de: "Buchen Sie jetzt Ihr Surf Haus in Strandnähe in Seignosse direkt auf HoliLandes.fr"
-        3:
-          image: "booking-reservation-buchen-partner-homeaway.png"
-          link: "https://www.abritel.fr/location-vacances/p1953696"
-          alt:
-            en: "Book now your Surf House close to the beach in Seignosse directly on Homeaway"
-            fr: "Réservez dès maintenant votre Surf House tout près de la plage à Seignosse sur Homeaway"
-            de: "Buchen Sie jetzt Ihr Surf Haus in Strandnähe in Seignosse direkt auf Homeaway"
+            en: "Book now your Surf House close to the beach in Seignosse directly on MadameKeys.com"
+            fr: "Réservez dès maintenant votre Surf House tout près de la plage à Seignosse sur MadameKeys.com"
+            de: "Buchen Sie jetzt Ihr Surf Haus in Strandnähe in Seignosse direkt auf MadameKeys.com"
     activities:
       title:
         en: "Activities"
@@ -249,6 +242,16 @@ t:
             fr: "Piscine à usage libre dans la résidence Atlantique"
             de: "Schwimmbad zur freien Benutzung auf dem Gelände der Résidence Atlantique"
         7:
+          icon: "fa-shower"
+          title:
+            en: "Outdoor shower"
+            fr: "Douche d'extérieur"
+            de: "Outdoor-Dusche"
+          text:
+            en: "Outdoor solar shower to rinse off after a day on the beach"
+            fr: "Douche solaire d'extérieur pour vous rincer en rentrant de la plage"
+            de: "Outdoor-Solardusche zum Abspülen, wenn du vom Strand nach Hause kommst"
+        8:
           icon: "fa-wifi"
           title:
             en: "Wifi"
@@ -258,16 +261,6 @@ t:
             en: "Free and private internet access"
             fr: "Accès internet privé et gratuit"
             de: "Kostenloser und privater Internetzugang"
-        8:
-          icon: "fa-dice"
-          title:
-            en: "Board games"
-            fr: "Jeux de société"
-            de: "Brettspiele"
-          text:
-            en: "Various international board games"
-            fr: "Divers jeux de société internationaux"
-            de: "Verschiedene internationale Gesellschaftsspiele"
     gallery:
       title:
         en: "Gallery"
