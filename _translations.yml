@@ -76,7 +76,7 @@ t:
       partners:
         1:
           image: "booking-reservation-buchen-partner-airbnb.png"
-          link: "https://www.airbnb.fr/rooms/46364539"
+          link: "https://airbnb.com/h/lepenon-surfhouse"
           alt:
             en: "Book now your Surf House close to the beach in Seignosse directly on Airbnb"
             fr: "Réservez dès maintenant votre Surf House tout près de la plage à Seignosse directement sur Airbnb"
