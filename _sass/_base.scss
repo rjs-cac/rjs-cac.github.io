@@ -20,7 +20,7 @@ hr.light {
 
 a {
     @include transition-all;
-    color: $theme-primary;
+    color: white;
     &:hover,
     &:focus {
         color: darken($theme-primary, 10%);
@@ -60,7 +60,7 @@ section {
 }
 
 aside {
-    padding: 5px 0;
+    padding: 10px 0px 0px 0px;
 }
 
 .no-padding {
