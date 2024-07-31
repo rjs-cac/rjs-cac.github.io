@@ -64,60 +64,44 @@ input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
-/* General modal styling */
-.modal_multi {
-    display: none; 
-    position: fixed; /* Fix position to prevent layout issues */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: hidden; /* Prevent scrolling issues */ 
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
 
-/* Center the modal-content */
-.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Width of the modal */
-    max-width: 600px; /* Max width of the modal */
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border-radius: 8px;
-    position: relative; /* Relative positioning to prevent layout issues */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Adjust positioning to center */
-}
-
-/* Nested modal-specific styling */
-.nested-modal .modal-content {
-    width: 60%; /* Width of the nested modal */
-    max-width: 400px; /* Max width of the nested modal */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Adjust positioning to center */
-}
-
-/* The Close Button */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
+ /* The Modal (background) */
+ .modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0px;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 70%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+  }
   
   /* No underline on hyperlink - for icons*/
   .a .myLink{
@@ -1994,6 +1978,7 @@ input, select, textarea {
 	form select,
 	form textarea {
 		position: relative;
+		-webkit-appearance: none;
 		display: block;
 		border: 0;
 		outline: 0;
