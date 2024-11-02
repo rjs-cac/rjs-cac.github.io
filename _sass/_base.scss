@@ -183,6 +183,7 @@ header {
     @include background-cover;
     background-position: center;
     background-image: url('../img/logo.png');
+    cursor: pointer;
     text-align: center;
     color: white;
 
@@ -284,9 +285,12 @@ header {
             top: 50%;
             transform: translateY(-50%);
 
+            .project-category {
+                @include sans-serif-font;
+            }
+
             .project-category,
             .project-name {
-                @include sans-serif-font;
                 padding: 0 15px;
             }
 
