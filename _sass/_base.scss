@@ -165,7 +165,9 @@ header {
         width: 100%;
         .header-content-inner {
             background-color: #004d00; // Arrière-plan vert foncé
-            isplay: inline-block; // Limite le fond au texte
+            padding: 10px; // Espacement autour du texte
+            border-radius: 5px; // Coins arrondis
+            display: inline-block; // Limite le fond au texte
             h1 {
                 font-weight: 700;
                 text-transform: uppercase;
