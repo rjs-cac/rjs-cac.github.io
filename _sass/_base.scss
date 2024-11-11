@@ -157,7 +157,7 @@ header {
     background-position: center;
     background-image: url('../img/header.jpg');
     text-align: center;
-    color: white;
+    color: #000000;
     .header-content {
         position: relative;
         text-align: center;
@@ -169,13 +169,14 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
+                color: #000000; // Titre en noir
             }
             hr {
                 margin: 30px auto;
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .7);
+                color: rgba(black, .7);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
