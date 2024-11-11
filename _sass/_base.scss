@@ -164,19 +164,21 @@ header {
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
+            background-color: #004d00; // Arrière-plan vert foncé
+            isplay: inline-block; // Limite le fond au texte
             h1 {
                 font-weight: 700;
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
-                color: #000000; // Titre en noir
+                color: white; // Titre en blanc
             }
             hr {
                 margin: 30px auto;
             }
             p {
                 font-weight: 300;
-                color: rgba(black, .7);
+                color: rgba(white, .9);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
