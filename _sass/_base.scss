@@ -112,7 +112,7 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: white; //rgba(white, .7)
             &:hover,
             &:focus {
                 color: white;
@@ -120,7 +120,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .9); //.7
+            color: white; //.7
             &:hover {
                 color: white;
             }
