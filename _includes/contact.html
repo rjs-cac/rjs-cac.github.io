@@ -16,7 +16,8 @@
                 <hr class="primary">
                 <p>Prêt à démarrer votre prochain projet avec nous ? Super ! Appelez-nous ou envoyez-nous un e-mail, et nous vous répondrons dans les plus brefs délais.!</p>
             </div>
-        <div class="col-lg-2 col-lg-offset-2 text-center">
+       <!--
+            <div class="col-lg-2 col-lg-offset-2 text-center">
             <a href="https://twitter.com/{{ site.twitter_username }}">
                 <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                 <p>{{ site.twitter_username }}</p>
@@ -34,6 +35,30 @@
                 <p>{{ site.github_username }}</p>
             </a>
         </div>
+-->
+        <div class="col-lg-3 col-lg-offset-1 text-center">
+    <!-- Rubrique E-mail -->
+    <a href="mailto:{{ site.email }}">
+        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+        <p>{{ contact@elec-engineering.net }}</p>
+    </a>
+</div>
 
+<div class="col-lg-3 col-lg-offset-1 text-center">
+    <!-- Rubrique LinkedIn -->
+    <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+        <i class="fa fa-linkedin fa-3x wow bounceIn" data-wow-delay=".2s"></i>
+        <p>{{ https://www.linkedin.com/company/elc-engineering }}</p>
+    </a>
+</div>
+
+<div class="col-lg-3 col-lg-offset-1 text-center">
+    <!-- Rubrique Numéro de téléphone -->
+    <div>
+        <i class="fa fa-phone fa-3x wow bounceIn" data-wow-delay=".3s"></i>
+        <p>+213 657 982 699</p> <!-- Remplacez par le numéro de téléphone réel -->
+    </div>
+</div>
+    
     </div>
 </section>
