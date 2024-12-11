@@ -88,6 +88,10 @@ t:
             en: "Book now your Surf House close to the beach in Seignosse directly on MadameKeys.com"
             fr: "Réservez dès maintenant votre Surf House tout près de la plage à Seignosse sur MadameKeys.com"
             de: "Buchen Sie jetzt Ihr Surf Haus in Strandnähe in Seignosse direkt auf MadameKeys.com"
+      feedback:
+        en: "What our guests are saying"
+        fr: "Ce que disent nos invités"
+        de: "Was unsere Gäste sagen"
     activities:
       title:
         en: "Activities"
