@@ -88,9 +88,12 @@ Netlify has been configured to deploy the website at every git commit/push on th
 - [x] Grid: enforce 2 columns on xs devices
 - [x] Disable overlay also for ipad (large screen but not mousepad and no hover)
 - [x] Add floating button 'show all pictures'
+- [ ] Add new photos to the gallery
 
 ### User Review
-- [ ] Add entry in Trip Advisor
+- [x] Add Google and AirBnB reviews
+- [ ] Add widget in header
+- [ ] Improve text in booking section above CTAs
 
 ### Contact
 - [x] Fix design with vertical aligned elements, smaller call/email icons.
@@ -102,15 +105,3 @@ Netlify has been configured to deploy the website at every git commit/push on th
 	- Smoke detector
 	- Bedsheets handling
 	- Heating
-
-## Feedbacks
-Jannis (06.04.2020)
-
-Gallery
-- [x] Title was missing
-- [x] Slideshow: navigation with the keyboard was expected
-- [x] Slideshow not clicked: "had the feeling all the pictures were already shown - that there was only 6 pictures available"
-- [x] Prefetch images in Slideshow
-
-Language Switcher
-- [x] Text is too big (won't do - too complex)
