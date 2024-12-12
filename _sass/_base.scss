@@ -103,6 +103,8 @@ footer {
     border-radius: 300px;
     font-weight: 700;
     text-transform: uppercase;
+
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3); /* Offset-x, Offset-y, Blur-radius, Color */
 }
 
 .btn-xl {
