@@ -57,10 +57,12 @@ Netlify has been configured to deploy the website at every git commit/push on th
 	- [x] Booking (x3)
 	- [x] Activities (x6)
 	- [ ] Gallery (x9?)
+	- [ ] Header background
 - [ ] Add an alt-tag to all pictures
 	- [x] Booking (x3)
 	- [x] Activities (x6)
 	- [ ] Gallery (x9?)
+	- [ ] Header background
 
 ### Navigation Bar
 - [x] Navigation bar: too wide
@@ -100,7 +102,7 @@ Netlify has been configured to deploy the website at every git commit/push on th
 - [x] Add GitHub link
 
 ### Info
-- [ ] Fix size of Youtube video on small devices
+- [x] Fix size of Youtube video on small devices
 
 ### Description on Partner's websites.
 - [x] Check for those information:
