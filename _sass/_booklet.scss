@@ -25,10 +25,15 @@
 
 .youtube-video {
     position: relative;
-    min-height: 40vh;
-    min-width: 50vh;
+    min-height: 30vh;
+    min-width: 40vh;
     max-height: 1080px;
     overflow: hidden;
+
+    @media (max-width: $min-screen-width) {
+    	min-height: 20vh;
+    	min-width: 20vh;
+    }
 }
 
 .youtube-video iframe {
