@@ -32,6 +32,19 @@ header {
             }
         }
     }
+
+    .header-bottom-content {
+        /* Position: bottom & horizontal center */
+        /* Define CSS on small screens */
+        position: inherit;
+        bottom: 20px;
+        display: inline-flex;
+        margin: auto;
+        .col-sm {
+            margin-top: 20px;
+        }
+    }
+
     @media (min-width: $min-screen-width) {
         min-height: 100%;
         .header-content {
@@ -52,6 +65,12 @@ header {
                     margin-right: auto;
                 }
             }
+        }
+
+        /* Override design for large screens */
+        .header-bottom-content {
+            position: absolute;
+            transform: translateX(-50%);
         }
     }
 }
