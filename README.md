@@ -93,11 +93,14 @@ Netlify has been configured to deploy the website at every git commit/push on th
 ### User Review
 - [x] Add Google and Airbnb reviews
 - [x] Improve text in booking section above CTAs
-- [ ] Add widget in header
+- [x] Add widget in header
 
 ### Contact
 - [x] Fix design with vertical aligned elements, smaller call/email icons.
 - [x] Add GitHub link
+
+### Info
+- [ ] Fix size of Youtube video on small devices
 
 ### Description on Partner's websites.
 - [x] Check for those information:
